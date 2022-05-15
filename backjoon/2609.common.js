@@ -1,3 +1,5 @@
+// https://www.acmicpc.net/problem/2609
+
 function common(...array) {
     const a = array[0];
     const b = array[1];
