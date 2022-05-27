@@ -1,5 +1,4 @@
 function solution(...nums) {
-    nums.map((i) => parseInt(i));
     let arr;
     for (let i = 0; i < 8; i++) {
         for (let j = i + 1; j < 9; j++) {
