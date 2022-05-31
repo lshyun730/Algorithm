@@ -1,3 +1,5 @@
+// https://programmers.co.kr/learn/courses/30/lessons/42586
+
 function solution(progresses, speeds) {
     let answer = [0];
     let days = progresses.map((progress, index) => Math.ceil((100 - progress) / speeds[index]));
